@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipe de Estilistas</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #222;
+      margin: 0;
+      line-height: 1.6em;
+    }
+
+   header {
+  background-color: #111;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+header img {
+  height: 40px;       /* altura fixa */
+  width: 120px;        /* largura fixa (retangular) */
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: contain; /* mantém proporção interna da imagem */
+}
+
+
+
+    header nav {
+      display: flex;
+      gap: 30px;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    header nav a:hover {
+      color: #f5f5f5;
+      text-decoration: underline;
+    }
+
+    /* ===== INTRO (título e subtítulo centralizados) ===== */
+    .intro {
+      text-align: center;
+      margin-top: 60px;
+      padding: 0 20px;
+    }
+
+    .intro h1 {
+      font-size: 2.5em;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    .intro p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    /* ===== PERFIS ===== */
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+    }
+
+    .perfil {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 40px;
+    }
+
+    .perfil:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .perfil img {
+      width: 280px;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 5px;
+      filter: grayscale(20%);
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    .info h2 {
+      font-family: "Georgia", serif;
+      font-size: 1.8em;
+      color: #b30059;
+      margin-top: 0;
+    }
+
+    .info p {
+      margin: 8px 0;
+    }
+
+    .info strong {
+      color: #000;
+    }
+
+    .info a {
+      color: #b30059;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== RODAPÉ ===== */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== RESPONSIVO ===== */
+    @media (max-width: 768px) {
+      .perfil {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .perfil img {
+        width: 100%;
+        height: auto;
+      }
+
+      header img {
+        height: 45px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+ <!-- ===== CABEÇALHO ===== -->
+ <header>
+  <img src="images/logosite.png" alt="Logo da empresa" />
+  <nav>
+    <a href="indexsite1.html">Categorias</a>
+    <a href="site0.html">Todas</a>
+    <a href="Artigo.html">Artigos</a>
+    <a href="contato.html">Contato</a>
+    <a href="sitesfamosos.html">Referência</a>
+  </nav>
+</header>
+
+  <!-- ===== INTRO ===== -->
+  <section class="intro">
+    <h1>Nossos Estilistas</h1>
+    <p>Conheça quem dá vida à moda com personalidade e arte</p>
+  </section>
+
+  <!-- ===== PERFIS ===== -->
+  <section class="container">
+    <div class="perfil">
+      <img src="https://www.fashionbubbles.com/wp-content/uploads/2022/08/6-exposicao-joao-braga.jpg" alt="Professor João Braga">
+      <div class="info">
+        <h2>Professor João Braga</h2>
+        <p><strong>Especialidade:</strong> História da Arte e História da Indumentária e da Moda e mestrado em História da Ciência</p>
+        <p><strong>Sobre:</strong> João Braga é Estilista, professor de História da Indumentária e da Moda em diversos cursos de graduação e pós-graduação, palestrante e autor do livro "Cultura e Elegância".</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/joaobragaprofessor/" target="_blank">@joaobragaprofessor</a></p>
+      </div>
+    </div>
+
+    <div class="perfil">
+      <img src="https://ied.edu.br/people/20390/image-thumb__20390__scaleByWidth600/Erika_Paiva_610x410.png" alt="Erika Paiva">
+      <div class="info">
+        <h2>Erika Paiva</h2>
+        <p><strong>Especialidade:</strong> Consultoria de Imagem e Estilo pela Fashion School</p>
+        <p><strong>Sobre:</strong> Erika Paiva é Consultora de Imagem, formada em Arquitetura e Urbanismo pela Universidade Presbiteriana Mackenzie e Pós-Graduada em Design de Interiores pelo IED-SP.</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/erikapaiva_consultoria/" target="_blank">@erikapaiva_consultoria</a></p>
+      </div>
+    </div>
+
+    <div class="perfil">
+      <img src="https://conteudo.imguol.com.br/c/entretenimento/90/2024/02/01/fabiola-kassin-1706822968366_v2_4x3.jpg" alt="Fabíola Kassin">
+      <div class="info">
+        <h2>Fabíola Kassin</h2>
+        <p><strong>Especialidade:</strong> Estrategista de marca, empreendedora e comunicadora</p>
+        <p><strong>Sobre:</strong> Fabíola Kassin constrói pontes entre moda, comportamento e o digital há mais de três décadas. Fundadora do site Hipnotique, o projeto se expandiu para diversas mídias sociais.</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fabiolakassin/" target="_blank">@fabiolakassin</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer>
+    <p>&copy; 2025 Fashion Style | <a href="#">Política de Privacidade</a></p>
+  </footer>
+
+</body>
+</html>
