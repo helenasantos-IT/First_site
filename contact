@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fashion Style ♥ | Artigo sobre Moda Feminina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      padding: 20px 0;
+    }
+
+    .artigo {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .artigo h2, .artigo h3 {
+      color: #333;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    .artigo h4, .artigo h5 {
+     text-align: center;
+      color: #333;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+    .artigo p, .artigo ul {
+      color: #555;
+      line-height: 1.6;
+      font-size: 1em;
+    }
+
+    .artigo ul {
+      padding-left: 20px;
+    }
+
+    .artigo a {
+      text-align: center;
+      color: #0070cc;
+      font-size: 1.2em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .artigo a:hover {
+      color: #ff5500;
+    }
+
+    .produto-artigo {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .produto-artigo div {
+      text-align: center;
+      max-width: 200px;
+    }
+
+    .produto-artigo img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho com o logo e navegação -->
+  <header>
+    <img src="images/logoloja.JPG" alt="Logo" width="10" />
+    <nav>
+      <a href="indexsite1.html">Categorias</a>
+      <a href="site0.html">Todas</a>
+      <a href="Artigo.html">Artigos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Título do artigo -->
+  <h1>Moda Feminina: Tendências que Estão em Alta</h1>
+
+  <!-- Conteúdo do artigo -->
+  <div class="artigo">
+    <h2>O Mundo da Moda Feminina</h2>
+    <p>A moda feminina está em constante evolução, com novas tendências surgindo a cada temporada. Neste artigo, vamos explorar algumas das tendências mais populares e dicas para você arrasar no seu estilo pessoal!</p>
+
+    <h3>1. O Que é Moda Feminina?</h3>
+    <p>Moda feminina vai além de simples roupas e acessórios; ela é uma forma de expressão, identidade e estilo. As mulheres usam a moda para se sentirem confiantes e mostrar suas personalidades. Seja em looks casuais ou mais formais, a moda feminina sempre tem algo único para oferecer.</p>
+
+    <h3>2. Tendências que Estão em Alta</h3>
+    <p>A cada estação, novas tendências dominam as ruas e as passarelas. Algumas das mais populares atualmente incluem:</p>
+    <ul>
+      <li><strong>Streetwear:</strong> O estilo urbano com peças como hoodies, tênis e calças largas está mais forte do que nunca.</li>
+      <li><strong>Minimalismo:</strong> Menos é mais! O minimalismo preza por roupas simples, com cores neutras e cortes clean.</li>
+      <li><strong>Moda Sustentável:</strong> A moda consciente tem ganhado espaço, com marcas que buscam usar materiais ecológicos e promover a sustentabilidade.</li>
+      <li><strong>Color Blocking:</strong> Combinação de cores fortes e contrastantes para um look moderno e arrojado.</li>
+    </ul>
+
+    <h3>3. Como Usar as Tendências no Seu Dia a Dia</h3>
+    <p>Agora que você já sabe o que está em alta, é hora de aprender como incorporar essas tendências ao seu guarda-roupa:</p>
+    <ul>
+      <li><a href="casacopreto.html">Casacos Pretos</a> - Peça versátil que combina com qualquer look urbano.</li>
+      <li><a href="blusaazul.html">Camisas Azuis</a> - Perfeitas para criar looks modernos e confortáveis.</li>
+      <li><a href="blusarosa.html">Blusas Rosas</a> - Toque de cor no visual sem perder a elegância.</li>
+    </ul>
+
+    <h3>4. Dicas para Um Estilo Minimalista</h3>
+    <p>Se você prefere um visual mais simples, o minimalismo é o caminho certo. Invista em peças neutras, cortes retos e acessórios discretos. Lembre-se: o segredo está na qualidade das peças.</p>
+
+    <h3>Conclusão</h3>
+    <p>A moda feminina é sobre se sentir bem consigo mesma e encontrar o estilo que melhor reflete sua personalidade. Seja seguindo as últimas tendências ou criando um estilo próprio, o mais importante é se sentir confortável e confiante. 
+    <br>
+
+    <h4>ATENÇÃO⚠️:</h4>
+    <h5>vá até o final da página para acessar mais artigos!</h5>
+
+
+    <!-- Produtos sugeridos no artigo -->
+    <div class="produto-artigo">
+      <div>
+        <a href="artigo2.html">
+          <img src="https://static.zara.net/assets/public/1e89/e57d/c2c34e05b6e4/4c572a11558a/01255521727-e1/01255521727-e1.jpg?ts=1752744478320&w=750" alt="Alfaiataria" />
+          <p>Dicas de Alfaiataria </p>
+        
+        </a>
+      </div>
+      <div>
+        <a href="blusaazul.html">
+          <img src="https://static.zara.net/assets/public/35b6/3ade/7d6a4426b8bf/ed1a12293504/03971301403-e1/03971301403-e1.jpg?ts=1753787850023&w=1536" alt="Camisa Azul" />
+          <p>Camisa Azul</p>
+          <br>
+
+        </a>
+      </div>
+      </div>
+  
+          <h5> Se quiser saber mais, clique em um dos links abaixo:</h5>
+          <a href="artigo2.html">Alfaiataria</a>
+
+            
+        </a>
+    
+
+
+
+</body>
+</html>
