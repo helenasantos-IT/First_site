@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equipe de Estilistas</title>
-
+<link rel="icon" href="C:\Users\ymoda\Desktop\sitecompleto\images\icon.jpg">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,33 +14,34 @@
       line-height: 1.6em;
     }
 
-   header {
-  background-color: #111;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 80px;
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
+   
+        header {
+  background-color: #000;     /* fundo preto */
+  color: #fff;
+  display: flex;              /* usa flexbox */
+  align-items: center;        /* centraliza verticalmente */
+  justify-content: space-between; /* separa logo e menu */
+  height: 80px;               /* altura exata */
+  width: 100vw;               /* ocupa 100% da largura da janela */
+  padding: 0 80px;            /* espaçamento interno lateral */
+  box-sizing: border-box;     /* inclui o padding na largura total */
+  position: relative;         /* evita comportamento estranho */
+  left: 50;                    /* garante alinhamento com borda esquerda */
+  top: 0;
 }
+
+
 header img {
-  height: 40px;       /* altura fixa */
-  width: 120px;        /* largura fixa (retangular) */
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  object-fit: contain; /* mantém proporção interna da imagem */
+  height: 40px;
+  width: auto;
 }
 
-
-
-    header nav {
-      display: flex;
-      gap: 30px;
-    }
+header nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
     header nav a {
       color: white;
@@ -110,7 +111,7 @@ header img {
     .info h2 {
       font-family: "Georgia", serif;
       font-size: 1.8em;
-      color: #b30059;
+      color: #000000;
       margin-top: 0;
     }
 
@@ -123,15 +124,16 @@ header img {
     }
 
     .info a {
-      color: #b30059;
+      color: #000000;
       text-decoration: none;
       font-weight: 600;
     }
 
     .info a:hover {
       text-decoration: underline;
+           color: #007BFF;
     }
-
+    
     /* ===== RODAPÉ ===== */
     footer {
       background-color: #000;
@@ -175,7 +177,7 @@ header img {
 
  <!-- ===== CABEÇALHO ===== -->
  <header>
-  <img src="images/logosite.png" alt="Logo da empresa" />
+  <img src="images/logosite.png" alt="Logo da empresa"/>
   <nav>
     <a href="indexsite1.html">Categorias</a>
     <a href="site0.html">Todas</a>
